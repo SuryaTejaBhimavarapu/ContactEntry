@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <title>Home Page</title>
+</head>
+<body>
+    
+    <div class="myForm" >
+    <form action="insert.php" method="post" class="FormElements" >
+        <h1 style="margin-left: 100px;">New Contact Entry</h1>
+        <input class="myInput" type="text" name="fname" placeholder="Enter the first name"><br><br>
+        <input class="myInput" type="text" name="lname" placeholder="Enter the last name"><br><br>
+        <input class="myInput"  type="email" name="email" placeholder="Enter the email address"><br><br>
+        <input class="myInput" type="number" name="phone" placeholder="Enter the phone number"><br><br>
+
+        
+
+        <input class="MyButton" style="width: 150px;
+        padding: 10px;
+        margin-left: 200px;
+        background: #054713;
+        color: #fff;
+        border: solid 1px #054713;
+        cursor: pointer;
+        transition:  all .38s ease-in-out;" type="submit"><br><br>
+    </form>
+    <button style="width: 150px;
+    padding: 10px;
+    margin-left: 380px;
+    background: #054713;
+    color: #fff;
+    border: solid 1px #054713;
+    cursor: pointer;
+    transition:  all .38s ease-in-out;" onclick="window.location.href='Search.php';">Search</button><br><br>
+    <button style="width: 150px;
+    padding: 10px;
+    margin-left: 380px;
+    background: #054713;
+    color: #fff;
+    border: solid 1px #054713;
+    cursor: pointer;
+    transition:  all .38s ease-in-out;" onclick="window.location.href='display.php';">All Entries</button>
+    </div>
+    </div>
+    
+    
+</body>
+</html>
